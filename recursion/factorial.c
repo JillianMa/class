@@ -7,7 +7,7 @@ int main(void)
 {
     int number = get_int("Number: ");
     int answer = factorial(number);
-    printf("%i! = %i", number, answer);
+    printf("%i! = %i\n", number, answer);
     
 }
 
