@@ -7,13 +7,13 @@ int main(void)
     int totaldays, startpennies, totalpennies;
     do
     {
-        totaldays = get_int("How many days in the month?");
+        totaldays = get_int("How many days in the month?: ");
     }
     while (!(totaldays >= 28 && totaldays <=31));
 
     do
     {
-        startpennies = get_int("How many pennies to start?");
+        startpennies = get_int("How many pennies to start?: ");
     }
     while (startpennies < 1);
 
@@ -24,6 +24,6 @@ int main(void)
         totalpennies = totalpennies + pennies;
         day++;
     }
-    printf("Total money: %f", (float) totalpennies/100);
+    printf("Total money: %f\n", (float) totalpennies/100);
 
 }
