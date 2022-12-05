@@ -33,7 +33,7 @@ int findMax(int array[], int length)
     return max;
 }
 
-// Returns the minumum value in an array of ints
+// Returns the minimum value in an array of ints
 int findMin(int array[], int length)
 {
     return 0; //remove this and add your own code;
