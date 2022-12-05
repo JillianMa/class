@@ -42,7 +42,7 @@ int findMin(int array[], int length)
 
 void printWinner(int array1[], int length1, int array2[], int length2)
 {
-    // Calulate who wins using findMax and findMin
+    // Calculate who wins using findMax and findMin
     // then print out the appropriate statement.
 
     printf("The winner is Player 1\n");
